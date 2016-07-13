@@ -1,1 +1,6 @@
-console.log('apple.js')
+
+function Apple() {
+	console.log('Hello apple.js')
+}
+
+export default Apple

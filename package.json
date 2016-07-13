@@ -5,11 +5,11 @@
   "license": "MIT",
   "description": "Simple and fast library for graphs and calculating shortest paths",
   "keywords": [
-    "tree",
     "graph",
-    "search",
+    "path",
     "traversal",
-    "vertex"
+    "shortest",
+    "dijkstra"
   ],
   "main": "dist/apple.js",
   "scripts": {
@@ -17,13 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukebro/apple.git"
+    "url": "https://github.com/lukebro/applejs.git"
   },
-  "bugs": "https://github.com/lukebro/apple/issues",
+  "bugs": "https://github.com/lukebro/applejs/issues",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
     "rollup": "^0.33.0",
     "rollup-plugin-babel": "^2.6.1",
     "rollup-plugin-uglify": "^1.0.1"
+  },
+  "babel": {
+    "presets": [ "es2015-rollup" ]
   }
 }
